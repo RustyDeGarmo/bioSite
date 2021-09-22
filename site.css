@@ -1,5 +1,21 @@
 body {
     margin: 0;
+    font-family: ;
+    background-color: #CAF0F8;
+}
+
+h1, h2 {
+    font-family: ;
+}
+
+h1 {
+    font-weight: 500;
+    color: #023E8A;
+}
+
+h2 {
+    font-weight: 400;
+    text-align: center;
 }
 
 header {
@@ -18,24 +34,21 @@ header {
 }
 
 figure {
-    background-color: red;
+    width: 75%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 img {
-    object-position: 50% 10%;
-    margin: 5px;
-    width: 480px;
-    
+    width: 80%;
+    padding-left: 10%;
 }
 
 figcaption {
     text-align: center;
+    font-style: italic;
 }
 
-h1 {
-    font-weight: 500;
-    color: #023E8A;
-}
 
 #navbar {
     text-align: center;
@@ -64,10 +77,17 @@ h1 {
 #container {
     margin: 2% 5% 0% 5%;
     padding: 10px;
+    background-color: white;
+}
+
+#spacer {
+    height: 30px;
 }
 
 
 footer {
+    position: fixed;
+    bottom: 0;
     background-color: #CAF0F8;
     width: 100%;
 }
@@ -89,5 +109,4 @@ footer a:hover {
     text-decoration: underline;
     color: #CAF0F8;
     background-color: #023E8A;
-    display: block;
 }
