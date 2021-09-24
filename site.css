@@ -18,6 +18,10 @@ h2 {
     text-align: center;
 }
 
+p {
+    text-align: ;
+}
+
 header {
     background-color: #CAF0F8;
     padding-bottom: 20px;
@@ -85,7 +89,7 @@ figcaption {
 }
 
 #spacer {
-    height: 30px;
+    height: 100px;
 }
 
 
@@ -99,18 +103,21 @@ footer {
 footer p {
     color: white;
     font-weight: 400;
-    float: right;
     padding-right: 10px;
     font-style: italic;
+    text-align: left;
 }
 
 footer a {
+    float: right;
     text-decoration: none;
     color: #023E8A;
+    padding: 15px;
 }
 
 footer a:hover {
     text-decoration: underline;
     color: #CAF0F8;
     background-color: #023E8A;
+    
 }
