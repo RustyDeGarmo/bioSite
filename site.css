@@ -1,3 +1,9 @@
+/*
+Rusty DeGarmo
+Professor Sampson
+Web Development with HTML and CSS
+*/
+
 body {
     margin: 0;
     font-family: Verdana, Geneva, sans-serif;
@@ -18,7 +24,6 @@ h2 {
     text-align: center;
 }
 
-
 header {
     background-color: #CAF0F8;
     padding-bottom: 20px;
@@ -29,6 +34,7 @@ header {
     width: 8%;
     float: left;
     padding-left: 2%;
+    padding-bottom: 5px;
     background-color: #023E8A;
     color: #CAF0F8;
     font-weight: 400;
@@ -36,14 +42,15 @@ header {
 
 figure {
     width: 75%;
-    padding-left: 10%;
-    padding-right: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
 }
 
 img {
     width: 80%;
-    margin-left: 10%;
     border: 3px solid #023E8A;
+    margin-left: 10%;
 }
 
 figcaption {
@@ -54,12 +61,11 @@ figcaption {
     border-right: 3px solid #023E8A;
 }
 
-
 #navbar {
     text-align: center;
     overflow: hidden;
     background-color: #CAF0F8;
-    padding-top: 5px;
+    padding-top: 10px;
     border-bottom: 27px solid #023E8A;
 }
 
@@ -67,6 +73,7 @@ figcaption {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border-radius: 30%;
 }
 
 #navbar a:visited {
@@ -78,6 +85,10 @@ figcaption {
     color: #48CAE4;
 }
 
+#navbar a.current {
+    background-color: #023E8A;
+    color: #48CAE4;
+}
 
 #container {
     margin: 2% 5% 0% 5%;
@@ -85,14 +96,13 @@ figcaption {
     background-color: white;
 }
 
-#spacer {
-    height: 100px;
+#interview {
+    width: 50%;
+    margin: auto;
 }
 
 
 footer {
-    position: fixed;
-    bottom: 0;
     background-color: #CAF0F8;
     width: 100%;
 }
@@ -116,5 +126,4 @@ footer a:hover {
     text-decoration: underline;
     color: #CAF0F8;
     background-color: #023E8A;
-    
 }
